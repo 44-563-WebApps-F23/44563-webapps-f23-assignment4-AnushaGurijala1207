@@ -62,3 +62,23 @@ color: green;
 .cast tbody tr:hover {
     background-color: #d9edf7; 
 }
+.bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:grey;
+    color: white;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.bottom-navbar a:hover {
+    text-decoration: underline;
+}
